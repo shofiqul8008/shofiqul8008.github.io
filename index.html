@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Shofiqul Islam - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation with animated menu -->
+    <header>
+        <nav class="navbar container">
+            <div class="logo">
+                <span class="logo-text">MD</span>
+                <span class="logo-highlight">Shofiqul</span>
+                <span class="logo-text">Islam</span>
+            </div>
+            
+            <!-- Animated Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span class="hamburger-box">
+                    <span class="hamburger-line top"></span>
+                    <span class="hamburger-line middle"></span>
+                    <span class="hamburger-line bottom"></span>
+                </span>
+            </button>
+            
+            <!-- Desktop Menu -->
+            <ul class="nav-links desktop-menu" id="desktopMenu">
+                <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-address-book"></i> Contact</a></li>
+                <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            </ul>
+            
+            <!-- Mobile Menu (Different from Desktop) -->
+            <ul class="nav-links mobile-menu" id="mobileMenu">
+                <li><a href="#home" class="nav-link mobile-nav-link">
+                    <i class="fas fa-home"></i>
+                    <span class="nav-text">Home</span>
+                    <i class="fas fa-chevron-right nav-arrow"></i>
+                </a></li>
+                <li><a href="#contact" class="nav-link mobile-nav-link">
+                    <i class="fas fa-paper-plane"></i>
+                    <span class="nav-text">Contact Me</span>
+                    <i class="fas fa-chevron-right nav-arrow"></i>
+                </a></li>
+                <li><a href="#education" class="nav-link mobile-nav-link">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="nav-text">Education</span>
+                    <i class="fas fa-chevron-right nav-arrow"></i>
+                </a></li>
+                <li><a href="https://github.com/shofiqul8008" target="_blank" class="nav-link mobile-nav-link">
+                    <i class="fab fa-github"></i>
+                    <span class="nav-text">GitHub</span>
+                    <i class="fas fa-external-link-alt nav-arrow"></i>
+                </a></li>
+            </ul>
+            
+            <div class="mobile-overlay" id="mobileOverlay"></div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="profile-display">
+                <div class="profile-picture-container">
+                    <div class="profile-image-wrapper">
+                        <img src="images/profile.jpg" alt="MD Shofiqul Islam" 
+                             class="profile-picture" id="profilePicture">
+                    </div>
+                </div>
+                
+                <div class="profile-info">
+                    <h1 class="profile-name">MD Shofiqul Islam</h1>
+                    <p class="profile-title">𝙰𝚕𝚑𝚊𝚖𝚍𝚞𝚕𝚒𝚕𝚕𝚊𝚑 𝚏𝚘𝚛 𝚎𝚟𝚎𝚛𝚢𝚝𝚑𝚒𝚗𝚐</p>
+                    
+                    <div class="profile-bio">
+                        <p>𝙸 𝚃𝚑𝚒𝚗𝚔 𝙸𝚝'𝚜 𝙵𝚒𝚗𝚎 𝚃𝚘 𝚂𝚊𝚌𝚛𝚒𝚏𝚒𝚌𝚎.....𓃰</p>
+                    </div>
+                    
+                    <div class="quick-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span> shofiqul8008@outlook.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>+880 XXXXXXXXXX</span>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-actions">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Contact Me
+                        </a>
+                        <a href="#education" class="btn btn-outline">
+                            <i class="fas fa-graduation-cap"></i>
+                            Education
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with Messenger -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Contact me through any platform</p>
+            
+            <div class="contact-buttons">
+                <!-- Messenger Button -->
+                <a href="https://m.me/shofiqul404" target="_blank" class="contact-btn messenger">
+                    <div class="btn-icon"><i class="fab fa-facebook-messenger"></i></div>
+                    <div class="btn-content">
+                        <span class="btn-title">Messenger</span>
+                        <span class="btn-handle"><!-- @shofiqul404 --></span>
+                    </div>
+                    <i class="fas fa-external-link-alt btn-external"></i>
+                </a>
+                
+                <!-- Telegram Button -->
+                <a href="https://t.me/shofiqul8008" target="_blank" class="contact-btn telegram">
+                    <div class="btn-icon"><i class="fab fa-telegram"></i></div>
+                    <div class="btn-content">
+                        <span class="btn-title">Telegram</span>
+                        <span class="btn-handle"><!-- @shofiqul8008 --></span>
+                    </div>
+                    <i class="fas fa-external-link-alt btn-external"></i>
+                </a>
+                
+                <!-- WhatsApp Button -->
+                <a href="https://api.whatsapp.com/send/?phone=8801616405964&text&type=phone_number&app_absent=0&wame_ctl=1" target="_blank" class="contact-btn whatsapp">
+                    <div class="btn-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div class="btn-content">
+                        <span class="btn-title">WhatsApp</span>
+                        <span class="btn-handle"><!-- +880 1616405964 --></span>
+                    </div>
+                    <i class="fas fa-external-link-alt btn-external"></i>
+                </a>
+                
+                <!-- Email Button -->
+                <a href="mailto:shofiqul8008@outlook.com?subject=Hallo" class="contact-btn email">
+                    <div class="btn-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="btn-content">
+                        <span class="btn-title">Email</span>
+                        <span class="btn-handle"><!-- shofiqul8008@yahoo.com --></span>
+                    </div>
+                    <i class="fas fa-external-link-alt btn-external"></i>
+                </a>
+                
+                <!-- GitHub Button -->
+                <a href="https://github.com/shofiqul8008" target="_blank" class="contact-btn github">
+                    <div class="btn-icon"><i class="fab fa-github"></i></div>
+                    <div class="btn-content">
+                        <span class="btn-title">GitHub</span>
+                        <span class="btn-handle"><!-- shofiqul8008 --></span>
+                    </div>
+                    <i class="fas fa-external-link-alt btn-external"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <!-- Education Section -->
+<section id="education" class="education-section">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-cards">
+            <!-- College Card -->
+            <div class="edu-card">
+                <div class="edu-header">
+                    <div class="edu-icon"><i class="fas fa-university"></i></div>
+                    <h3 class="edu-title">Jhaudia College</h3>
+                </div>
+                <div class="edu-details">
+                    <div class="edu-detail">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Currently Studying</span>
+                    </div>
+                    <div class="edu-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Kushtia, Bangladesh</span>
+                    </div>
+                    <div class="edu-detail">
+                        <i class="fas fa-book-open"></i>
+                        <span>Higher Secondary (HSC)</span>
+                    </div>
+                </div>
+                <div class="edu-footer">
+                    <span class="edu-year">2024 - Present</span>
+                    <span class="edu-status">Current</span>
+                </div>
+            </div>
+            
+            <!-- School Card -->
+            <div class="edu-card">
+                <div class="edu-header">
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3 class="edu-title">Jhaudia Bazar Secondary High School</h3>
+                </div>
+                <div class="edu-details">
+                    <div class="edu-detail">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>SSC 2024</span>
+                    </div>
+                    <div class="edu-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Kushtia, Bangladesh</span>
+                    </div>
+                    <div class="edu-detail">
+                        <i class="fas fa-award"></i>
+                        <span>Science Group</span>
+                    </div>
+                </div>
+                <div class="edu-footer">
+                    <span class="edu-year">2022 - 2023</span>
+                    <span class="edu-status">Completed</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">MD Shofiqul Islam</h3>
+                    <p class="footer-tagline">Building digital experiences with code</p>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2026 MD Shofiqul Islam. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
